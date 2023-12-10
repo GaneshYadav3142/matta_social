@@ -35,9 +35,9 @@ const handelSearch=(inputKey)=>{
   }
   else{
     const filterData=countryData.filter((el)=>Object.keys(el.currencies).includes(inputKey.toUpperCase()))
-    if(filterData){
+   
     setLocalData(filterData)
-    }
+    
    
   }
 }
